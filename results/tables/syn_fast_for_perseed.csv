@@ -1,0 +1,28 @@
+model,test,fdr,fdp_sd,power,resamples,seed
+H-NRFL (ours),"conformal, study-level (marginal FDR)",0.2681234095743902,0.04067055169118082,0.7388592976520951,200,0
+H-NRFL (ours),"conformal, study-level (conditional on calibration set)",0.2720996578919127,0.036114602831222704,0.7434006631956949,200,0
+H-NRFL (ours),"model-based specimen p-values + Simes, no calibration",0.1422333519494951,0.0356214950623748,0.7338456483470276,200,0
+GBM (asfail),"conformal, study-level (marginal FDR)",0.22413006290135373,0.04278960168820692,0.5484351387573735,200,0
+GBM (asfail),"conformal, study-level (conditional on calibration set)",0.22161973253494807,0.04200397940711517,0.5406240030748981,200,0
+GBM (asfail),"model-based specimen p-values + Simes, no calibration",0.1377795126962646,0.03597469026930395,0.5341000414672815,200,0
+ASTM E739 pooled (drop),"conformal, study-level (marginal FDR)",0.19163519490660794,0.07240224426285348,0.7347437707127342,200,0
+ASTM E739 pooled (drop),"conformal, study-level (conditional on calibration set)",0.1871477602820656,0.035282992420797986,0.7467349606437966,200,0
+ASTM E739 pooled (drop),"model-based specimen p-values + Simes, no calibration",0.0,0.0,0.4974000174994893,200,0
+H-NRFL (ours),"conformal, study-level (marginal FDR)",0.062392983499614606,0.03609999605024212,0.6394119170970697,200,1
+H-NRFL (ours),"conformal, study-level (conditional on calibration set)",0.04645502602085252,0.025280447016603372,0.6260191541746627,200,1
+H-NRFL (ours),"model-based specimen p-values + Simes, no calibration",0.1379540615018735,0.032119556453063906,0.7138488589180626,200,1
+GBM (asfail),"conformal, study-level (marginal FDR)",0.03299503160574637,0.0504506300442963,0.2978363309270329,200,1
+GBM (asfail),"conformal, study-level (conditional on calibration set)",0.08283020357265712,0.04394666441887658,0.5093399704436152,200,1
+GBM (asfail),"model-based specimen p-values + Simes, no calibration",0.044091844000512734,0.02644713056051208,0.5870765354432238,200,1
+ASTM E739 pooled (drop),"conformal, study-level (marginal FDR)",0.015430569430569432,0.040429015673430525,0.5318845824435311,200,1
+ASTM E739 pooled (drop),"conformal, study-level (conditional on calibration set)",0.0,0.0,0.510300826822738,200,1
+ASTM E739 pooled (drop),"model-based specimen p-values + Simes, no calibration",0.0,0.0,0.5183427932480339,200,1
+H-NRFL (ours),"conformal, study-level (marginal FDR)",0.02494582693551838,0.0481003724131119,0.4920175338747583,200,2
+H-NRFL (ours),"conformal, study-level (conditional on calibration set)",0.010414855072463767,0.027045993539050985,0.4717858714618605,200,2
+H-NRFL (ours),"model-based specimen p-values + Simes, no calibration",0.054074642856321076,0.03047593001304554,0.5862614597308838,200,2
+GBM (asfail),"conformal, study-level (marginal FDR)",0.021441393422187083,0.07572925434632449,0.1318817750525765,200,2
+GBM (asfail),"conformal, study-level (conditional on calibration set)",0.0,0.0,0.17561172888842286,200,2
+GBM (asfail),"model-based specimen p-values + Simes, no calibration",0.0,0.0,0.5576130854380085,200,2
+ASTM E739 pooled (drop),"conformal, study-level (marginal FDR)",0.03500778836970451,0.021522141198138178,0.6263513705353279,200,2
+ASTM E739 pooled (drop),"conformal, study-level (conditional on calibration set)",0.034969050812971594,0.021392005827242752,0.6265756772579966,200,2
+ASTM E739 pooled (drop),"model-based specimen p-values + Simes, no calibration",0.0,0.0,0.555263966641459,200,2

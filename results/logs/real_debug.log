@@ -1,0 +1,18 @@
+16:04:26 Laminate panel (CFRP, notched) RFL, censored (proper) NLL 1.270
+16:04:27 Laminate panel (CFRP, notched) RFL, run-outs dropped NLL 1.276
+16:04:27 Laminate panel (CFRP, notched) RFL, run-outs as failures NLL 1.276
+16:04:29 Laminate panel (CFRP, notched) Basquin log-normal, censored NLL 3.140
+16:06:25 Laminate panel (CFRP, notched) GBM (drop) NLL 0.885
+16:06:58 Laminate panel (CFRP, notched) GBM (asfail) NLL 0.841
+16:08:40 Laminate panel (CFRP, notched) GBM (flag) NLL 0.841
+16:08:48 Inconel 718 (strain-life) RFL, censored (proper) NLL 6.550
+16:08:48 Inconel 718 (strain-life) RFL, run-outs dropped NLL 6.547
+16:08:48 Inconel 718 (strain-life) RFL, run-outs as failures NLL 6.562
+16:08:50 Inconel 718 (strain-life) Basquin log-normal, censored NLL 2.124
+16:09:35 Inconel 718 (strain-life) GBM (drop) NLL 0.942
+16:12:19 Inconel 718 (strain-life) GBM (asfail) NLL 0.736
+16:12:28 Inconel 718 (strain-life) GBM (flag) NLL 0.736
+16:12:35 Ti alloy (strain-life) RFL, censored (proper) NLL 2.325
+16:12:35 Ti alloy (strain-life) RFL, run-outs dropped NLL 2.403
+16:12:35 Ti alloy (strain-life) RFL, run-outs as failures NLL 2.756
+16:12:38 Ti alloy (strain-life) Basquin log-normal, censored NLL 2.972

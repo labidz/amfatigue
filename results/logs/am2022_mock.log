@@ -1,0 +1,8 @@
+16:59:23 loaded 90 datasets; 90 usable uniaxial RT smooth S-N datasets
+16:59:23 seed 0 fit H-NRFL (ours)
+16:59:41 seed 0 fit H-NRFL, run-outs dropped
+16:59:43 seed 0 fit H-NRFL, run-outs as failures
+16:59:44 seed 0 fit Pascual-Meeker RFL, pooled
+16:59:56 seed 0 fit w/o covariates (RE only)
+17:00:09 seed 0 done 46s
+17:00:09 done 46s

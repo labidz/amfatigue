@@ -1,0 +1,3 @@
+Spearman(sqrt_area, p-value) = -0.740 (p = 1.5e-05, n = 26)
+Spearman(sqrt_area, sigma_f) = -0.732 (p = 2.1e-05)
+Flagged at BH q=0.10: 0 of 32; natural-origin flagged: 0 of 16

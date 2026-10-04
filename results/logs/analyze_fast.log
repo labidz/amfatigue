@@ -1,0 +1,8 @@
+analysed syn_fast_seed0.pkl
+/home/claude/amfatigue/experiments/analyze_synthetic.py:362: RuntimeWarning: Mean of empty slice
+  row[kk] = float(np.nanmean(v))
+analysed syn_fast_seed1.pkl
+/home/claude/amfatigue/experiments/analyze_synthetic.py:362: RuntimeWarning: Mean of empty slice
+  row[kk] = float(np.nanmean(v))
+analysed syn_fast_seed2.pkl
+seeds: 3

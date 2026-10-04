@@ -1,0 +1,46 @@
+17:45:18 truth
+17:45:24 fit H-NRFL (ours)
+17:54:36   done H-NRFL (ours) 558s
+17:54:36 fit H-NRFL, run-outs dropped
+17:56:55   done H-NRFL, run-outs dropped 698s
+17:56:55 fit H-NRFL, run-outs as failures
+17:59:14   done H-NRFL, run-outs as failures 837s
+17:59:14 fit w/o random effects
+17:59:23   done w/o random effects 845s
+17:59:23 fit w/o fatigue limit (Basquin)
+17:59:34   done w/o fatigue limit (Basquin) 856s
+17:59:34 fit linear g (no MLP)
+18:01:59   done linear g (no MLP) 1002s
+18:01:59 fit w/o covariates (RE only)
+18:09:20   done w/o covariates (RE only) 1442s
+18:09:20 fit w/o Walker (amplitude only)
+18:11:41   done w/o Walker (amplitude only) 1583s
+18:11:41 fit Pascual-Meeker RFL, pooled (linear, no RE)
+18:11:48   done Pascual-Meeker RFL, pooled (linear, no RE) 1590s
+18:11:48 fit GBM (drop)
+18:11:52   done GBM (drop) 1595s
+18:11:52 fit GBM (asfail)
+18:11:56   done GBM (asfail) 1599s
+18:11:56 fit GBM (flag)
+18:12:01   done GBM (flag) 1603s
+18:12:01 fit RF (drop)
+18:12:36   done RF (drop) 1638s
+18:12:36 fit RF (asfail)
+18:13:12   done RF (asfail) 1674s
+18:13:12 fit RF (flag)
+18:13:48   done RF (flag) 1710s
+18:13:48 fit MLP (drop)
+18:13:55   done MLP (drop) 1718s
+18:13:55 fit MLP (asfail)
+18:14:04   done MLP (asfail) 1727s
+18:14:04 fit MLP (flag)
+18:14:15   done MLP (flag) 1737s
+18:14:15 fit ASTM E739 pooled (drop)
+18:14:15   done ASTM E739 pooled (drop) 1738s
+18:14:15 fit Deep AFT (censored log-normal MLP)
+18:14:26   done Deep AFT (censored log-normal MLP) 1748s
+18:14:26 fit Deep ensemble x3 (censored)
+18:14:49   done Deep ensemble x3 (censored) 1771s
+18:14:49 fit DeepSurv (Cox)
+18:14:57   done DeepSurv (Cox) 1779s
+18:15:01 saved 1784s

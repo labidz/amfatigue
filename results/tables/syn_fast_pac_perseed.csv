@@ -1,0 +1,214 @@
+model,method,mean_coverage,p_cov_ge_90,mean_lpb_log10,n_draws,seed
+H-NRFL (ours),"Model quantile, uncalibrated",0.8978703385372814,0.0,5.154946069834925,1,0
+H-NRFL (ours),Split conformal (1-α),0.8993578181930952,0.105,5.150401837412881,200,0
+H-NRFL (ours),PAC conformal (B-basis 90/95),0.9210000845384119,0.84,5.077552408627753,200,0
+"H-NRFL, run-outs dropped","Model quantile, uncalibrated",0.9225125457333389,1.0,5.0661157445429605,1,0
+"H-NRFL, run-outs dropped",Split conformal (1-α),0.9224560487160679,1.0,5.066277014110553,200,0
+"H-NRFL, run-outs dropped",PAC conformal (B-basis 90/95),0.9333332539987313,1.0,5.024669665180004,200,0
+"H-NRFL, run-outs as failures","Model quantile, uncalibrated",0.9210660457450023,1.0,4.978628320696668,1,0
+"H-NRFL, run-outs as failures",Split conformal (1-α),0.9084866611695709,0.705,5.015838404265566,200,0
+"H-NRFL, run-outs as failures",PAC conformal (B-basis 90/95),0.929186826564829,0.985,4.947016967110853,200,0
+w/o random effects,"Model quantile, uncalibrated",0.8406756070172676,0.0,5.256601712473767,1,0
+w/o random effects,Split conformal (1-α),0.9119618715826587,0.73,5.0119276881928405,200,0
+w/o random effects,PAC conformal (B-basis 90/95),0.9530525271493566,1.0,4.760585646923648,200,0
+w/o fatigue limit (Basquin),"Model quantile, uncalibrated",0.8502541951721299,0.0,5.283971715861098,1,0
+w/o fatigue limit (Basquin),Split conformal (1-α),0.8871755458463592,0.285,5.17575621929629,200,0
+w/o fatigue limit (Basquin),PAC conformal (B-basis 90/95),0.9308667537916684,0.905,5.009856854494421,200,0
+linear g (no MLP),"Model quantile, uncalibrated",0.9094733269888803,1.0,5.125606362513191,1,0
+linear g (no MLP),Split conformal (1-α),0.9142808499960211,1.0,5.109683323419338,200,0
+linear g (no MLP),PAC conformal (B-basis 90/95),0.9419991066094343,1.0,5.001474280016504,200,0
+w/o covariates (RE only),"Model quantile, uncalibrated",0.8703289451305983,0.0,4.683164859399093,1,0
+w/o covariates (RE only),Split conformal (1-α),0.8911428128588669,0.375,4.572248519952359,200,0
+w/o covariates (RE only),PAC conformal (B-basis 90/95),0.930245059584224,0.99,4.329175932364673,200,0
+w/o Walker (amplitude only),"Model quantile, uncalibrated",0.884119501487545,0.0,5.1776879429099045,1,0
+w/o Walker (amplitude only),Split conformal (1-α),0.88717042004976,0.075,5.168219134408116,200,0
+w/o Walker (amplitude only),PAC conformal (B-basis 90/95),0.9171321768632614,0.755,5.063611646267504,200,0
+"Pascual-Meeker RFL, pooled (linear, no RE)","Model quantile, uncalibrated",0.9151226853460475,1.0,5.162096311614692,1,0
+"Pascual-Meeker RFL, pooled (linear, no RE)",Split conformal (1-α),0.9160509536842096,1.0,5.1590987165144835,200,0
+"Pascual-Meeker RFL, pooled (linear, no RE)",PAC conformal (B-basis 90/95),0.9325038135885222,1.0,5.097884321791722,200,0
+GBM (drop),"Model quantile, uncalibrated",0.9554715773325347,1.0,4.737215310320297,1,0
+GBM (drop),Split conformal (1-α),0.8926918072507763,0.41,4.976348960379762,200,0
+GBM (drop),PAC conformal (B-basis 90/95),0.933095938872757,0.93,4.836671636489573,200,0
+GBM (asfail),"Model quantile, uncalibrated",0.9521079186319537,1.0,4.804147437052918,1,0
+GBM (asfail),Split conformal (1-α),0.8915595768073756,0.355,5.0285030822118495,200,0
+GBM (asfail),PAC conformal (B-basis 90/95),0.9318922214124661,0.955,4.890344575640764,200,0
+GBM (asfail),"Normal tolerance bound, pooled i.i.d. (MMPDS-style)",0.9560574819663736,1.0,4.7821247568669145,1,0
+GBM (flag),"Model quantile, uncalibrated",0.9632568946150799,1.0,4.660593358245244,1,0
+GBM (flag),Split conformal (1-α),0.8936210922592582,0.46,4.934587967273338,200,0
+GBM (flag),PAC conformal (B-basis 90/95),0.930597029228965,0.945,4.811765428418433,200,0
+RF (drop),"Model quantile, uncalibrated",0.9461831751362944,1.0,4.7074391302389405,1,0
+RF (drop),Split conformal (1-α),0.8805532998450808,0.195,4.953922579680199,200,0
+RF (drop),PAC conformal (B-basis 90/95),0.9221502367278375,0.875,4.811090475302587,200,0
+RF (asfail),"Model quantile, uncalibrated",0.937728193508103,1.0,4.816429649820176,1,0
+RF (asfail),Split conformal (1-α),0.8824649420980442,0.255,5.012340142009853,200,0
+RF (asfail),PAC conformal (B-basis 90/95),0.9271882723732365,0.91,4.85432285874123,200,0
+RF (flag),"Model quantile, uncalibrated",0.9502322840321809,1.0,4.682367372260232,1,0
+RF (flag),Split conformal (1-α),0.8862334190372791,0.32,4.933587908466993,200,0
+RF (flag),PAC conformal (B-basis 90/95),0.9269958174886058,0.91,4.7879043614754115,200,0
+MLP (drop),"Model quantile, uncalibrated",0.9541998198578289,1.0,4.885620098911494,1,0
+MLP (drop),Split conformal (1-α),0.9495205888749888,1.0,4.908568589361513,200,0
+MLP (drop),PAC conformal (B-basis 90/95),0.9549437578481565,1.0,4.880730995706439,200,0
+MLP (asfail),"Model quantile, uncalibrated",0.9487597924614148,1.0,4.699734586720573,1,0
+MLP (asfail),Split conformal (1-α),0.8941194029674228,0.325,4.951182667719151,200,0
+MLP (asfail),PAC conformal (B-basis 90/95),0.9278877503157887,0.91,4.8071921381385065,200,0
+MLP (flag),"Model quantile, uncalibrated",0.9551806448291793,1.0,4.766481964289402,1,0
+MLP (flag),Split conformal (1-α),0.9106576262695901,0.7,4.973007522413582,200,0
+MLP (flag),PAC conformal (B-basis 90/95),0.9392781090483799,1.0,4.853174117323485,200,0
+ASTM E739 pooled (drop),"Model quantile, uncalibrated",0.9470132183230274,1.0,4.919238927828798,1,0
+ASTM E739 pooled (drop),Split conformal (1-α),0.9109651496198584,0.7,5.034048510733961,200,0
+ASTM E739 pooled (drop),PAC conformal (B-basis 90/95),0.9399859997800465,1.0,4.942744857534114,200,0
+ASTM E739 pooled (drop),"Normal tolerance bound, pooled i.i.d. (MMPDS-style)",0.9518032354884531,1.0,4.900051346904525,1,0
+Deep AFT (censored log-normal MLP),"Model quantile, uncalibrated",0.8103183598336254,0.0,5.269318210963111,1,0
+Deep AFT (censored log-normal MLP),Split conformal (1-α),0.9031291561940141,0.58,4.942229149360601,200,0
+Deep AFT (censored log-normal MLP),PAC conformal (B-basis 90/95),0.9416916078099229,0.98,4.7383912528375625,200,0
+Deep ensemble x3 (censored),"Model quantile, uncalibrated",0.8533503403223878,0.0,5.15816625550786,1,0
+Deep ensemble x3 (censored),Split conformal (1-α),0.905677835250236,0.61,4.961191938915147,200,0
+Deep ensemble x3 (censored),PAC conformal (B-basis 90/95),0.9450232278008014,1.0,4.7538446754317984,200,0
+DeepSurv (Cox),"Model quantile, uncalibrated",0.8193908375970615,0.0,5.23945771197812,1,0
+DeepSurv (Cox),Split conformal (1-α),0.9054305563106704,0.655,4.907281970468854,200,0
+DeepSurv (Cox),PAC conformal (B-basis 90/95),0.9437116278673576,0.985,4.672467886826318,200,0
+"H-NRFL (ours), 1,000 fresh test studies","Model quantile, uncalibrated",0.9098330881364386,1.0,,1,0
+"H-NRFL (ours), 1,000 fresh test studies",Split conformal (1-α),0.9109589376058552,1.0,,200,0
+"H-NRFL (ours), 1,000 fresh test studies",PAC conformal (B-basis 90/95),0.9268753043752156,1.0,,200,0
+H-NRFL (ours),"Model quantile, uncalibrated",0.878877006027085,0.0,5.175512390030514,1,1
+H-NRFL (ours),Split conformal (1-α),0.9023588781713662,0.54,5.099244831318436,200,1
+H-NRFL (ours),PAC conformal (B-basis 90/95),0.9453199030892034,0.985,4.915415500026268,200,1
+"H-NRFL, run-outs dropped","Model quantile, uncalibrated",0.9063278949114837,1.0,5.064657899272593,1,1
+"H-NRFL, run-outs dropped",Split conformal (1-α),0.9126423961892818,1.0,5.040035323032364,200,1
+"H-NRFL, run-outs dropped",PAC conformal (B-basis 90/95),0.9437179415289159,1.0,4.894105280150694,200,1
+"H-NRFL, run-outs as failures","Model quantile, uncalibrated",0.9022385364935553,1.0,4.980707469918634,1,1
+"H-NRFL, run-outs as failures",Split conformal (1-α),0.9150527644686597,0.94,4.9329352880433035,200,1
+"H-NRFL, run-outs as failures",PAC conformal (B-basis 90/95),0.9550915558963051,1.0,4.7472058233990815,200,1
+w/o random effects,"Model quantile, uncalibrated",0.8120732244230805,0.0,5.295155377470645,1,1
+w/o random effects,Split conformal (1-α),0.8930446095988015,0.385,5.0591077057339735,200,1
+w/o random effects,PAC conformal (B-basis 90/95),0.943913948110755,0.965,4.828211879690454,200,1
+w/o fatigue limit (Basquin),"Model quantile, uncalibrated",0.8285647944906535,0.0,5.274130163883971,1,1
+w/o fatigue limit (Basquin),Split conformal (1-α),0.8864319600496043,0.37,5.090179395610033,200,1
+w/o fatigue limit (Basquin),PAC conformal (B-basis 90/95),0.9340246099907122,0.96,4.881946957625828,200,1
+linear g (no MLP),"Model quantile, uncalibrated",0.8956487497785872,0.0,5.089482895795276,1,1
+linear g (no MLP),Split conformal (1-α),0.9206496675585677,0.72,4.984343904725533,200,1
+linear g (no MLP),PAC conformal (B-basis 90/95),0.9603911537525791,0.995,4.756088179047096,200,1
+w/o covariates (RE only),"Model quantile, uncalibrated",0.8482652449601263,0.0,4.713278408209714,1,1
+w/o covariates (RE only),Split conformal (1-α),0.8918320805703922,0.345,4.510573348447917,200,1
+w/o covariates (RE only),PAC conformal (B-basis 90/95),0.9423216571289232,0.98,4.18668725265262,200,1
+w/o Walker (amplitude only),"Model quantile, uncalibrated",0.8802555151784148,0.0,5.147290809222974,1,1
+w/o Walker (amplitude only),Split conformal (1-α),0.9052143191476033,0.51,5.05693970347498,200,1
+w/o Walker (amplitude only),PAC conformal (B-basis 90/95),0.9479713526449203,0.97,4.854986733104242,200,1
+"Pascual-Meeker RFL, pooled (linear, no RE)","Model quantile, uncalibrated",0.8758195257556823,0.0,5.209483983729803,1,1
+"Pascual-Meeker RFL, pooled (linear, no RE)",Split conformal (1-α),0.8997724219311806,0.465,5.130382810190249,200,1
+"Pascual-Meeker RFL, pooled (linear, no RE)",PAC conformal (B-basis 90/95),0.9437852251668951,0.97,4.938386301552672,200,1
+GBM (drop),"Model quantile, uncalibrated",0.9129634342855522,1.0,4.822404379445574,1,1
+GBM (drop),Split conformal (1-α),0.8787245662397551,0.175,4.93714117841938,200,1
+GBM (drop),PAC conformal (B-basis 90/95),0.9285178459617963,0.89,4.735388477460917,200,1
+GBM (asfail),"Model quantile, uncalibrated",0.9072589962184378,1.0,4.915339341426061,1,1
+GBM (asfail),Split conformal (1-α),0.8741784383065958,0.17,5.022710866681029,200,1
+GBM (asfail),PAC conformal (B-basis 90/95),0.9260450262320776,0.835,4.813425056441459,200,1
+GBM (asfail),"Normal tolerance bound, pooled i.i.d. (MMPDS-style)",0.9126961259803191,1.0,4.893239449295386,1,1
+GBM (flag),"Model quantile, uncalibrated",0.920612432763494,1.0,4.770367542534888,1,1
+GBM (flag),Split conformal (1-α),0.875245528303811,0.175,4.924152783570708,200,1
+GBM (flag),PAC conformal (B-basis 90/95),0.9266085603937728,0.86,4.72952167206866,200,1
+RF (drop),"Model quantile, uncalibrated",0.919640534972014,1.0,4.750680752383836,1,1
+RF (drop),Split conformal (1-α),0.8790649859622665,0.25,4.892654199302138,200,1
+RF (drop),PAC conformal (B-basis 90/95),0.935115480312297,0.925,4.66118728925702,200,1
+RF (asfail),"Model quantile, uncalibrated",0.9140690298591312,1.0,4.874941485214756,1,1
+RF (asfail),Split conformal (1-α),0.8874160371075284,0.37,4.968288607929116,200,1
+RF (asfail),PAC conformal (B-basis 90/95),0.9425414751254602,0.97,4.7100453418013,200,1
+RF (flag),"Model quantile, uncalibrated",0.9245866615669294,1.0,4.727351551985401,1,1
+RF (flag),Split conformal (1-α),0.8810006291592535,0.315,4.885216453189472,200,1
+RF (flag),PAC conformal (B-basis 90/95),0.9335402122636433,0.92,4.668287914735894,200,1
+MLP (drop),"Model quantile, uncalibrated",0.9194619222719492,1.0,4.952891127680813,1,1
+MLP (drop),Split conformal (1-α),0.9196859800841282,1.0,4.951623726836087,200,1
+MLP (drop),PAC conformal (B-basis 90/95),0.9363633506385792,1.0,4.859086961545492,200,1
+MLP (asfail),"Model quantile, uncalibrated",0.9317788940174532,1.0,4.7512838340065295,1,1
+MLP (asfail),Split conformal (1-α),0.9081612085108693,0.675,4.854279561251169,200,1
+MLP (asfail),PAC conformal (B-basis 90/95),0.9486100174135365,1.0,4.638963234150741,200,1
+MLP (flag),"Model quantile, uncalibrated",0.9246803793451623,1.0,4.843506707369472,1,1
+MLP (flag),Split conformal (1-α),0.9122232566246542,0.82,4.895712494294313,200,1
+MLP (flag),PAC conformal (B-basis 90/95),0.9391268529765934,1.0,4.76045184060267,200,1
+ASTM E739 pooled (drop),"Model quantile, uncalibrated",0.9330256096233175,1.0,4.95233359525045,1,1
+ASTM E739 pooled (drop),Split conformal (1-α),0.932835576157322,1.0,4.952101830184926,200,1
+ASTM E739 pooled (drop),PAC conformal (B-basis 90/95),0.95772172134398,1.0,4.819084199377089,200,1
+ASTM E739 pooled (drop),"Normal tolerance bound, pooled i.i.d. (MMPDS-style)",0.9379317784917515,1.0,4.93221646191321,1,1
+Deep AFT (censored log-normal MLP),"Model quantile, uncalibrated",0.7586231746072355,0.0,5.316860292101694,1,1
+Deep AFT (censored log-normal MLP),Split conformal (1-α),0.8834839503979043,0.245,4.926966155008586,200,1
+Deep AFT (censored log-normal MLP),PAC conformal (B-basis 90/95),0.9318836223795369,0.925,4.679127539988786,200,1
+Deep ensemble x3 (censored),"Model quantile, uncalibrated",0.7996774063002463,0.0,5.241929130758431,1,1
+Deep ensemble x3 (censored),Split conformal (1-α),0.8882844326193898,0.26,4.943989687517436,200,1
+Deep ensemble x3 (censored),PAC conformal (B-basis 90/95),0.9316729060172224,0.945,4.714282193743802,200,1
+DeepSurv (Cox),"Model quantile, uncalibrated",0.7714574124952298,0.0,5.325021294693637,1,1
+DeepSurv (Cox),Split conformal (1-α),0.9099863713167626,0.645,4.8824688341981375,200,1
+DeepSurv (Cox),PAC conformal (B-basis 90/95),0.9561883142478222,0.985,4.58196060272672,200,1
+"H-NRFL (ours), 1,000 fresh test studies","Model quantile, uncalibrated",0.8988943114464132,0.0,,1,1
+"H-NRFL (ours), 1,000 fresh test studies",Split conformal (1-α),0.9173100006598365,0.76,,200,1
+"H-NRFL (ours), 1,000 fresh test studies",PAC conformal (B-basis 90/95),0.9539958196402099,1.0,,200,1
+H-NRFL (ours),"Model quantile, uncalibrated",0.9369142973412299,1.0,5.1255054598222225,1,2
+H-NRFL (ours),Split conformal (1-α),0.9369317540758836,1.0,5.1254238467393,200,2
+H-NRFL (ours),PAC conformal (B-basis 90/95),0.9441526543969374,1.0,5.085544405022246,200,2
+"H-NRFL, run-outs dropped","Model quantile, uncalibrated",0.9358484718648125,1.0,5.148591158069573,1,2
+"H-NRFL, run-outs dropped",Split conformal (1-α),0.9363779056560848,1.0,5.146319925797277,200,2
+"H-NRFL, run-outs dropped",PAC conformal (B-basis 90/95),0.9496921435122861,1.0,5.0814266275449365,200,2
+"H-NRFL, run-outs as failures","Model quantile, uncalibrated",0.9532983145185727,1.0,4.936593383884531,1,2
+"H-NRFL, run-outs as failures",Split conformal (1-α),0.9182417418034262,0.825,5.063896852367944,200,2
+"H-NRFL, run-outs as failures",PAC conformal (B-basis 90/95),0.9534335257583908,1.0,4.928600308003234,200,2
+w/o random effects,"Model quantile, uncalibrated",0.8371339073793037,0.0,5.32502267000311,1,2
+w/o random effects,Split conformal (1-α),0.8867217336935123,0.255,5.156723448223083,200,2
+w/o random effects,PAC conformal (B-basis 90/95),0.931283662985698,0.96,4.946586083905604,200,2
+w/o fatigue limit (Basquin),"Model quantile, uncalibrated",0.8589864468506571,0.0,5.295017535984863,1,2
+w/o fatigue limit (Basquin),Split conformal (1-α),0.8903292299573533,0.355,5.191705345524485,200,2
+w/o fatigue limit (Basquin),PAC conformal (B-basis 90/95),0.937686087125214,0.98,4.986289220889716,200,2
+linear g (no MLP),"Model quantile, uncalibrated",0.9308644444273697,1.0,5.099952689727727,1,2
+linear g (no MLP),Split conformal (1-α),0.933279311014282,1.0,5.089095746432146,200,2
+linear g (no MLP),PAC conformal (B-basis 90/95),0.9543171539343885,1.0,4.97640263443398,200,2
+w/o covariates (RE only),"Model quantile, uncalibrated",0.8891245580136882,0.0,4.729712955315897,1,2
+w/o covariates (RE only),Split conformal (1-α),0.9377348406728064,0.99,4.449769814730322,200,2
+w/o covariates (RE only),PAC conformal (B-basis 90/95),0.9672234469752667,1.0,4.176779951192508,200,2
+w/o Walker (amplitude only),"Model quantile, uncalibrated",0.9299229661165765,1.0,5.123520165360514,1,2
+w/o Walker (amplitude only),Split conformal (1-α),0.9301374355123697,1.0,5.1225169682804585,200,2
+w/o Walker (amplitude only),PAC conformal (B-basis 90/95),0.9408712845964746,1.0,5.068525606572232,200,2
+"Pascual-Meeker RFL, pooled (linear, no RE)","Model quantile, uncalibrated",0.9275907815986381,1.0,5.195820812628321,1,2
+"Pascual-Meeker RFL, pooled (linear, no RE)",Split conformal (1-α),0.9288208845999845,1.0,5.191060077062661,200,2
+"Pascual-Meeker RFL, pooled (linear, no RE)",PAC conformal (B-basis 90/95),0.951967597483501,1.0,5.084939046231552,200,2
+GBM (drop),"Model quantile, uncalibrated",0.9580014684790504,1.0,4.783152504664784,1,2
+GBM (drop),Split conformal (1-α),0.8897547899500967,0.355,5.051329483819482,200,2
+GBM (drop),PAC conformal (B-basis 90/95),0.9366689080933339,0.985,4.8840591849249275,200,2
+GBM (asfail),"Model quantile, uncalibrated",0.9504738410406613,1.0,4.88713444718107,1,2
+GBM (asfail),Split conformal (1-α),0.8967701940532524,0.35,5.092484235681986,200,2
+GBM (asfail),PAC conformal (B-basis 90/95),0.9422358335042693,0.96,4.91193994500074,200,2
+GBM (asfail),"Normal tolerance bound, pooled i.i.d. (MMPDS-style)",0.9544289649992724,1.0,4.865113567099636,1,2
+GBM (flag),"Model quantile, uncalibrated",0.9602215966473985,1.0,4.7514550149465755,1,2
+GBM (flag),Split conformal (1-α),0.9054034554219045,0.655,4.968021178641234,200,2
+GBM (flag),PAC conformal (B-basis 90/95),0.943257620601332,0.995,4.827067373659649,200,2
+RF (drop),"Model quantile, uncalibrated",0.956509654917788,1.0,4.718638947460177,1,2
+RF (drop),Split conformal (1-α),0.899433741402025,0.535,4.965079614781114,200,2
+RF (drop),PAC conformal (B-basis 90/95),0.9403148491616574,0.975,4.797289574960715,200,2
+RF (asfail),"Model quantile, uncalibrated",0.9454366320788158,1.0,4.852610834407437,1,2
+RF (asfail),Split conformal (1-α),0.8970276657850245,0.455,5.051681157256965,200,2
+RF (asfail),PAC conformal (B-basis 90/95),0.9428905487709451,0.975,4.852282594364031,200,2
+RF (flag),"Model quantile, uncalibrated",0.9538805890988771,1.0,4.726323143313976,1,2
+RF (flag),Split conformal (1-α),0.8991362640996456,0.485,4.958998975839475,200,2
+RF (flag),PAC conformal (B-basis 90/95),0.9410910995271914,0.955,4.785870992607585,200,2
+MLP (drop),"Model quantile, uncalibrated",0.9596120475559008,1.0,4.917908165264717,1,2
+MLP (drop),Split conformal (1-α),0.9545634285266971,1.0,4.945471903625944,200,2
+MLP (drop),PAC conformal (B-basis 90/95),0.9632508381401022,1.0,4.886581591977007,200,2
+MLP (asfail),"Model quantile, uncalibrated",0.9593755438139485,1.0,4.807891272493238,1,2
+MLP (asfail),Split conformal (1-α),0.9178084822988845,0.795,5.013034110753407,200,2
+MLP (asfail),PAC conformal (B-basis 90/95),0.9588083582145863,1.0,4.799702921441263,200,2
+MLP (flag),"Model quantile, uncalibrated",0.9416479297575134,1.0,4.900680460351002,1,2
+MLP (flag),Split conformal (1-α),0.9250874703596655,0.94,4.972395801951755,200,2
+MLP (flag),PAC conformal (B-basis 90/95),0.9514380282167976,1.0,4.8371210614550595,200,2
+ASTM E739 pooled (drop),"Model quantile, uncalibrated",0.9613473236066394,1.0,4.933026454002244,1,2
+ASTM E739 pooled (drop),Split conformal (1-α),0.941604120218155,0.99,5.015609777381443,200,2
+ASTM E739 pooled (drop),PAC conformal (B-basis 90/95),0.9630734260806338,1.0,4.919740148680786,200,2
+ASTM E739 pooled (drop),"Normal tolerance bound, pooled i.i.d. (MMPDS-style)",0.9650781627916684,1.0,4.9129387959457445,1,2
+Deep AFT (censored log-normal MLP),"Model quantile, uncalibrated",0.7809966292574473,0.0,5.385265829609072,1,2
+Deep AFT (censored log-normal MLP),Split conformal (1-α),0.9044186759161263,0.66,4.953805712998327,200,2
+Deep AFT (censored log-normal MLP),PAC conformal (B-basis 90/95),0.9475693576767253,0.99,4.64646450643206,200,2
+Deep ensemble x3 (censored),"Model quantile, uncalibrated",0.817301478776534,0.0,5.282796440066568,1,2
+Deep ensemble x3 (censored),Split conformal (1-α),0.9099849419427247,0.705,4.945403604787448,200,2
+Deep ensemble x3 (censored),PAC conformal (B-basis 90/95),0.9563213733869391,1.0,4.651576364668289,200,2
+DeepSurv (Cox),"Model quantile, uncalibrated",0.7690947316107619,0.0,5.433900750338117,1,2
+DeepSurv (Cox),Split conformal (1-α),0.891928797202595,0.335,4.972166234965318,200,2
+DeepSurv (Cox),PAC conformal (B-basis 90/95),0.9407287009253014,0.955,4.643137174002948,200,2
+"H-NRFL (ours), 1,000 fresh test studies","Model quantile, uncalibrated",0.9184828824705817,1.0,,1,2
+"H-NRFL (ours), 1,000 fresh test studies",Split conformal (1-α),0.9185219791427812,1.0,,200,2
+"H-NRFL (ours), 1,000 fresh test studies",PAC conformal (B-basis 90/95),0.9293750924236426,1.0,,200,2

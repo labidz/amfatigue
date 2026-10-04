@@ -1,0 +1,5 @@
+critical_defect,n,mean_sigma_f_max,median_p,flagged
+Deterministic,16,404.36375,0.17647058823529413,0
+Microstructure,5,567.768,0.875,0
+Non observable,1,497.24,0.4375,0
+Surface defect,10,463.332,0.34375,0

@@ -1,0 +1,52 @@
+16:40:38 truth
+16:40:38 fit H-NRFL (ours)
+16:41:02   done H-NRFL (ours) 24s
+16:41:02 fit H-NRFL, run-outs dropped
+16:41:08   done H-NRFL, run-outs dropped 31s
+16:41:08 fit H-NRFL, run-outs as failures
+16:41:10   done H-NRFL, run-outs as failures 32s
+16:41:10 fit w/o random effects
+16:41:18   done w/o random effects 40s
+16:41:18 fit w/o fatigue limit (Basquin)
+16:41:22   done w/o fatigue limit (Basquin) 45s
+16:41:22 fit linear g (no MLP)
+16:41:30   done linear g (no MLP) 53s
+16:41:30 fit w/o covariates (RE only)
+16:41:41   done w/o covariates (RE only) 63s
+16:41:41 fit w/o Walker (amplitude only)
+16:41:50   done w/o Walker (amplitude only) 72s
+16:41:50 fit Pascual-Meeker RFL, pooled (linear, no RE)
+16:41:56   done Pascual-Meeker RFL, pooled (linear, no RE) 79s
+16:41:56 fit GBM (drop)
+16:41:58   done GBM (drop) 80s
+16:41:58 fit GBM (asfail)
+16:41:59   done GBM (asfail) 82s
+16:41:59 fit GBM (flag)
+16:42:01   done GBM (flag) 83s
+16:42:01 fit RF (drop)
+16:42:06   done RF (drop) 88s
+16:42:06 fit RF (asfail)
+16:42:11   done RF (asfail) 93s
+16:42:11 fit RF (flag)
+16:42:16   done RF (flag) 98s
+16:42:16 fit MLP (drop)
+16:42:18   done MLP (drop) 100s
+16:42:18 fit MLP (asfail)
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (400) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (400) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (400) reached and the optimization hasn't converged yet.
+  warnings.warn(
+16:42:21   done MLP (asfail) 104s
+16:42:21 fit MLP (flag)
+16:42:25   done MLP (flag) 107s
+16:42:25 fit ASTM E739 pooled (drop)
+16:42:25   done ASTM E739 pooled (drop) 107s
+16:42:25 fit Deep AFT (censored log-normal MLP)
+16:42:28   done Deep AFT (censored log-normal MLP) 111s
+16:42:28 fit Deep ensemble x2 (censored)
+16:42:30   done Deep ensemble x2 (censored) 112s
+16:42:30 fit DeepSurv (Cox)
+16:42:32   done DeepSurv (Cox) 115s
+16:42:33 saved 115s

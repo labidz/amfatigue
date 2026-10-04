@@ -1,0 +1,26 @@
+21:26:52 fit H-NRFL (ours)
+21:33:08 fit linear g
+21:39:28 fit Pascual-Meeker RFL, pooled
+21:39:46 fit GBM (asfail)
+21:42:39 fit Deep ensemble x3
+21:43:37 H-NRFL (ours) 0 {'nll': 1.459, 'cov_unweighted': 0.882, 'cov_weighted': 0.887, 'cov_pac': 0.908, 'p_pac_ge_90': 0.64, 'cov_asbuilt_unweighted': 0.86, 'cov_machined_unweighted': 0.904, 'cov_asbuilt_weighted': 0.87, 'cov_machined_weighted': 0.905, 'share_eligible_asbuilt': 0.177, 'share_eligible_machined': 0.917, 'allow_mean_rel': 0.866, 'allow_frac_rel_ge_90': 0.75}
+21:43:43 H-NRFL (ours) 3 {'nll': 1.032, 'cov_unweighted': 0.913, 'cov_weighted': 0.92, 'cov_pac': 0.941, 'p_pac_ge_90': 1.0, 'cov_asbuilt_unweighted': 0.894, 'cov_machined_unweighted': 0.933, 'cov_asbuilt_weighted': 0.907, 'cov_machined_weighted': 0.933, 'share_eligible_asbuilt': 0.177, 'share_eligible_machined': 0.917, 'allow_mean_rel': 0.946, 'allow_frac_rel_ge_90': 0.845}
+21:43:44 linear g 0 {'nll': 1.464, 'cov_unweighted': 0.902, 'cov_weighted': 0.914, 'cov_pac': 0.921, 'p_pac_ge_90': 1.0, 'cov_asbuilt_unweighted': 0.85, 'cov_machined_unweighted': 0.955, 'cov_asbuilt_weighted': 0.87, 'cov_machined_weighted': 0.959, 'share_eligible_asbuilt': 0.177, 'share_eligible_machined': 0.917}
+21:43:45 linear g 3 {'nll': 1.031, 'cov_unweighted': 0.909, 'cov_weighted': 0.917, 'cov_pac': 0.935, 'p_pac_ge_90': 1.0, 'cov_asbuilt_unweighted': 0.882, 'cov_machined_unweighted': 0.936, 'cov_asbuilt_weighted': 0.895, 'cov_machined_weighted': 0.938, 'share_eligible_asbuilt': 0.177, 'share_eligible_machined': 0.917}
+21:43:46 Pascual-Meeker RFL, pooled 0 {'nll': 1.597, 'cov_unweighted': 0.896, 'cov_weighted': 0.899, 'cov_pac': 0.934, 'p_pac_ge_90': 1.0, 'cov_asbuilt_unweighted': 0.885, 'cov_machined_unweighted': 0.907, 'cov_asbuilt_weighted': 0.898, 'cov_machined_weighted': 0.9, 'share_eligible_asbuilt': 0.177, 'share_eligible_machined': 0.917}
+21:43:47 GBM (asfail) 0 {'nll': 1.644, 'cov_unweighted': 0.909, 'cov_weighted': 0.905, 'cov_pac': 0.942, 'p_pac_ge_90': 1.0, 'cov_asbuilt_unweighted': 0.897, 'cov_machined_unweighted': 0.922, 'cov_asbuilt_weighted': 0.904, 'cov_machined_weighted': 0.906, 'share_eligible_asbuilt': 0.177, 'share_eligible_machined': 0.917}
+21:43:48 Deep ensemble x3 0 {'nll': 2.546, 'cov_unweighted': 0.891, 'cov_weighted': 0.891, 'cov_pac': 0.926, 'p_pac_ge_90': 0.94, 'cov_asbuilt_unweighted': 0.892, 'cov_machined_unweighted': 0.891, 'cov_asbuilt_weighted': 0.903, 'cov_machined_weighted': 0.879, 'share_eligible_asbuilt': 0.177, 'share_eligible_machined': 0.917}
+21:43:48 done 1074s
+21:45:10 fit H-NRFL (ours)
+21:51:39 fit linear g
+21:58:05 fit Pascual-Meeker RFL, pooled
+21:58:25 fit GBM (asfail)
+21:58:53 fit Deep ensemble x3
+21:59:51 H-NRFL (ours) 0 {'nll': 1.398, 'cov_unweighted': 0.894, 'cov_weighted': 0.918, 'cov_pac': 0.926, 'p_pac_ge_90': 0.88, 'cov_asbuilt_unweighted': 0.871, 'cov_machined_unweighted': 0.913, 'cov_asbuilt_weighted': 0.907, 'cov_machined_weighted': 0.927, 'share_eligible_asbuilt': 0.224, 'share_eligible_machined': 0.939, 'allow_mean_rel': 0.885, 'allow_frac_rel_ge_90': 0.755}
+21:59:57 H-NRFL (ours) 3 {'nll': 1.04, 'cov_unweighted': 0.907, 'cov_weighted': 0.916, 'cov_pac': 0.931, 'p_pac_ge_90': 1.0, 'cov_asbuilt_unweighted': 0.897, 'cov_machined_unweighted': 0.915, 'cov_asbuilt_weighted': 0.909, 'cov_machined_weighted': 0.921, 'share_eligible_asbuilt': 0.224, 'share_eligible_machined': 0.939, 'allow_mean_rel': 0.918, 'allow_frac_rel_ge_90': 0.775}
+21:59:57 linear g 0 {'nll': 1.445, 'cov_unweighted': 0.903, 'cov_weighted': 0.929, 'cov_pac': 0.941, 'p_pac_ge_90': 1.0, 'cov_asbuilt_unweighted': 0.882, 'cov_machined_unweighted': 0.92, 'cov_asbuilt_weighted': 0.918, 'cov_machined_weighted': 0.938, 'share_eligible_asbuilt': 0.224, 'share_eligible_machined': 0.939}
+21:59:58 linear g 3 {'nll': 1.007, 'cov_unweighted': 0.914, 'cov_weighted': 0.927, 'cov_pac': 0.937, 'p_pac_ge_90': 1.0, 'cov_asbuilt_unweighted': 0.898, 'cov_machined_unweighted': 0.926, 'cov_asbuilt_weighted': 0.918, 'cov_machined_weighted': 0.935, 'share_eligible_asbuilt': 0.224, 'share_eligible_machined': 0.939}
+21:59:59 Pascual-Meeker RFL, pooled 0 {'nll': 1.406, 'cov_unweighted': 0.896, 'cov_weighted': 0.914, 'cov_pac': 0.93, 'p_pac_ge_90': 0.92, 'cov_asbuilt_unweighted': 0.894, 'cov_machined_unweighted': 0.897, 'cov_asbuilt_weighted': 0.918, 'cov_machined_weighted': 0.91, 'share_eligible_asbuilt': 0.224, 'share_eligible_machined': 0.939}
+22:00:00 GBM (asfail) 0 {'nll': 1.61, 'cov_unweighted': 0.903, 'cov_weighted': 0.916, 'cov_pac': 0.938, 'p_pac_ge_90': 0.98, 'cov_asbuilt_unweighted': 0.892, 'cov_machined_unweighted': 0.911, 'cov_asbuilt_weighted': 0.913, 'cov_machined_weighted': 0.918, 'share_eligible_asbuilt': 0.224, 'share_eligible_machined': 0.939}
+22:00:01 Deep ensemble x3 0 {'nll': 5.743, 'cov_unweighted': 0.891, 'cov_weighted': 0.893, 'cov_pac': 0.931, 'p_pac_ge_90': 0.94, 'cov_asbuilt_unweighted': 0.875, 'cov_machined_unweighted': 0.904, 'cov_asbuilt_weighted': 0.888, 'cov_machined_weighted': 0.897, 'share_eligible_asbuilt': 0.224, 'share_eligible_machined': 0.939}
+22:00:01 done 970s

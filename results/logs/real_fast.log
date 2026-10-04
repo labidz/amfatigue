@@ -1,0 +1,124 @@
+16:19:59 Laminate panel (CFRP, notched) RFL, censored (proper) NLL 0.739
+16:20:06 Laminate panel (CFRP, notched) RFL, run-outs dropped NLL 0.774
+16:20:13 Laminate panel (CFRP, notched) RFL, run-outs as failures NLL 0.758
+16:20:18 Laminate panel (CFRP, notched) Basquin log-normal, censored NLL 0.824
+16:20:19 Laminate panel (CFRP, notched) GBM (drop) NLL 0.845
+16:20:19 Laminate panel (CFRP, notched) GBM (asfail) NLL 0.822
+16:20:20 Laminate panel (CFRP, notched) GBM (flag) NLL 0.824
+16:20:28 Laminate panel (CFRP, notched) RFL, censored (proper) NLL 0.766
+16:20:35 Laminate panel (CFRP, notched) RFL, run-outs dropped NLL 0.794
+16:20:43 Laminate panel (CFRP, notched) RFL, run-outs as failures NLL 0.779
+16:20:45 Laminate panel (CFRP, notched) Basquin log-normal, censored NLL 0.851
+16:20:46 Laminate panel (CFRP, notched) GBM (drop) NLL 0.823
+16:20:47 Laminate panel (CFRP, notched) GBM (asfail) NLL 0.805
+16:20:48 Laminate panel (CFRP, notched) GBM (flag) NLL 0.816
+16:20:55 Laminate panel (CFRP, notched) RFL, censored (proper) NLL 0.714
+16:21:02 Laminate panel (CFRP, notched) RFL, run-outs dropped NLL 0.743
+16:21:10 Laminate panel (CFRP, notched) RFL, run-outs as failures NLL 0.726
+16:21:12 Laminate panel (CFRP, notched) Basquin log-normal, censored NLL 0.811
+16:21:13 Laminate panel (CFRP, notched) GBM (drop) NLL 0.813
+16:21:14 Laminate panel (CFRP, notched) GBM (asfail) NLL 0.776
+16:21:15 Laminate panel (CFRP, notched) GBM (flag) NLL 0.770
+16:21:39 Inconel 718 (strain-life) RFL, censored (proper) NLL 0.355
+16:21:52 Inconel 718 (strain-life) RFL, run-outs dropped NLL 0.396
+16:22:05 Inconel 718 (strain-life) RFL, run-outs as failures NLL 0.370
+16:22:09 Inconel 718 (strain-life) Basquin log-normal, censored NLL 1.029
+16:22:11 Inconel 718 (strain-life) GBM (drop) NLL 0.775
+16:22:12 Inconel 718 (strain-life) GBM (asfail) NLL 0.592
+16:22:13 Inconel 718 (strain-life) GBM (flag) NLL 0.592
+16:22:27 Inconel 718 (strain-life) RFL, censored (proper) NLL 0.401
+16:22:40 Inconel 718 (strain-life) RFL, run-outs dropped NLL 0.392
+16:22:53 Inconel 718 (strain-life) RFL, run-outs as failures NLL 0.390
+16:22:54 Inconel 718 (strain-life) Basquin log-normal, censored NLL 1.123
+16:22:56 Inconel 718 (strain-life) GBM (drop) NLL 0.895
+16:22:57 Inconel 718 (strain-life) GBM (asfail) NLL 0.672
+16:22:58 Inconel 718 (strain-life) GBM (flag) NLL 0.672
+16:23:12 Inconel 718 (strain-life) RFL, censored (proper) NLL 0.376
+16:23:25 Inconel 718 (strain-life) RFL, run-outs dropped NLL 0.413
+16:23:38 Inconel 718 (strain-life) RFL, run-outs as failures NLL 0.385
+16:23:40 Inconel 718 (strain-life) Basquin log-normal, censored NLL 1.167
+16:23:42 Inconel 718 (strain-life) GBM (drop) NLL 0.903
+16:23:43 Inconel 718 (strain-life) GBM (asfail) NLL 0.776
+16:23:44 Inconel 718 (strain-life) GBM (flag) NLL 0.776
+16:24:06 Ti alloy (strain-life) RFL, censored (proper) NLL 0.924
+16:24:12 Ti alloy (strain-life) RFL, run-outs dropped NLL 1.096
+16:24:19 Ti alloy (strain-life) RFL, run-outs as failures NLL 1.047
+16:24:23 Ti alloy (strain-life) Basquin log-normal, censored NLL 1.284
+16:24:24 Ti alloy (strain-life) GBM (drop) NLL 1.583
+16:24:25 Ti alloy (strain-life) GBM (asfail) NLL 1.241
+16:24:25 Ti alloy (strain-life) GBM (flag) NLL 1.434
+16:24:32 Ti alloy (strain-life) RFL, censored (proper) NLL 0.914
+16:24:39 Ti alloy (strain-life) RFL, run-outs dropped NLL 1.218
+16:24:45 Ti alloy (strain-life) RFL, run-outs as failures NLL 1.025
+16:24:48 Ti alloy (strain-life) Basquin log-normal, censored NLL 1.253
+16:24:48 Ti alloy (strain-life) GBM (drop) NLL 1.530
+16:24:49 Ti alloy (strain-life) GBM (asfail) NLL 1.215
+16:24:50 Ti alloy (strain-life) GBM (flag) NLL 1.416
+16:24:56 Ti alloy (strain-life) RFL, censored (proper) NLL 0.961
+16:25:02 Ti alloy (strain-life) RFL, run-outs dropped NLL 1.171
+16:25:09 Ti alloy (strain-life) RFL, run-outs as failures NLL 1.029
+16:25:11 Ti alloy (strain-life) Basquin log-normal, censored NLL 1.254
+16:25:12 Ti alloy (strain-life) GBM (drop) NLL 1.546
+16:25:13 Ti alloy (strain-life) GBM (asfail) NLL 1.199
+16:25:14 Ti alloy (strain-life) GBM (flag) NLL 1.418
+16:25:27 Ni superalloy (LCF, pseudo-stress) RFL, censored (proper) NLL 1.222
+16:25:31 Ni superalloy (LCF, pseudo-stress) RFL, run-outs dropped NLL 1.326
+16:25:35 Ni superalloy (LCF, pseudo-stress) RFL, run-outs as failures NLL 1.105
+16:25:38 Ni superalloy (LCF, pseudo-stress) Basquin log-normal, censored NLL 1.106
+16:25:39 Ni superalloy (LCF, pseudo-stress) GBM (drop) NLL 1.684
+16:25:39 Ni superalloy (LCF, pseudo-stress) GBM (asfail) NLL 1.210
+16:25:40 Ni superalloy (LCF, pseudo-stress) GBM (flag) NLL 1.210
+16:25:43 Ni superalloy (LCF, pseudo-stress) RFL, censored (proper) NLL 1.281
+16:25:47 Ni superalloy (LCF, pseudo-stress) RFL, run-outs dropped NLL 1.408
+16:25:50 Ni superalloy (LCF, pseudo-stress) RFL, run-outs as failures NLL 1.183
+16:25:52 Ni superalloy (LCF, pseudo-stress) Basquin log-normal, censored NLL 1.194
+16:25:52 Ni superalloy (LCF, pseudo-stress) GBM (drop) NLL 1.697
+16:25:53 Ni superalloy (LCF, pseudo-stress) GBM (asfail) NLL 1.319
+16:25:53 Ni superalloy (LCF, pseudo-stress) GBM (flag) NLL 1.319
+16:25:57 Ni superalloy (LCF, pseudo-stress) RFL, censored (proper) NLL 1.285
+16:26:01 Ni superalloy (LCF, pseudo-stress) RFL, run-outs dropped NLL 1.281
+16:26:04 Ni superalloy (LCF, pseudo-stress) RFL, run-outs as failures NLL 1.105
+16:26:06 Ni superalloy (LCF, pseudo-stress) Basquin log-normal, censored NLL 1.164
+16:26:06 Ni superalloy (LCF, pseudo-stress) GBM (drop) NLL 1.696
+16:26:07 Ni superalloy (LCF, pseudo-stress) GBM (asfail) NLL 1.226
+16:26:07 Ni superalloy (LCF, pseudo-stress) GBM (flag) NLL 1.226
+16:26:20 Steel S-N (pylife demo) RFL, censored (proper) NLL 1.378
+16:26:23 Steel S-N (pylife demo) RFL, run-outs dropped NLL 1.950
+16:26:27 Steel S-N (pylife demo) RFL, run-outs as failures NLL 1.595
+16:26:31 Steel S-N (pylife demo) Basquin log-normal, censored NLL 1.507
+16:26:31 Steel S-N (pylife demo) GBM (drop) NLL 2.497
+16:26:31 Steel S-N (pylife demo) GBM (asfail) NLL 1.667
+16:26:32 Steel S-N (pylife demo) GBM (flag) NLL 1.667
+16:26:36 Steel S-N (pylife demo) RFL, censored (proper) NLL 1.366
+16:26:40 Steel S-N (pylife demo) RFL, run-outs dropped NLL 2.337
+16:26:44 Steel S-N (pylife demo) RFL, run-outs as failures NLL 1.568
+16:26:46 Steel S-N (pylife demo) Basquin log-normal, censored NLL 1.470
+16:26:46 Steel S-N (pylife demo) GBM (drop) NLL 2.528
+16:26:47 Steel S-N (pylife demo) GBM (asfail) NLL 1.658
+16:26:47 Steel S-N (pylife demo) GBM (flag) NLL 1.658
+16:26:51 Steel S-N (pylife demo) RFL, censored (proper) NLL 1.388
+16:26:55 Steel S-N (pylife demo) RFL, run-outs dropped NLL 1.902
+16:26:59 Steel S-N (pylife demo) RFL, run-outs as failures NLL 1.580
+16:27:00 Steel S-N (pylife demo) Basquin log-normal, censored NLL 1.491
+16:27:01 Steel S-N (pylife demo) GBM (drop) NLL 2.375
+16:27:01 Steel S-N (pylife demo) GBM (asfail) NLL 1.625
+16:27:02 Steel S-N (pylife demo) GBM (flag) NLL 1.625
+16:27:25 hcf 10 Hierarchical RFL + Walker (ours)
+16:27:33 hcf 10 Pooled Pascual-Meeker RFL + Walker
+16:27:52 hcf 10 Hierarchical, w/o Walker
+16:28:05 hcf 108 Hierarchical RFL + Walker (ours)
+16:28:06 hcf 108 Pooled Pascual-Meeker RFL + Walker
+16:28:18 hcf 108 Hierarchical, w/o Walker
+16:28:30 hcf 149 Hierarchical RFL + Walker (ours)
+16:28:31 hcf 149 Pooled Pascual-Meeker RFL + Walker
+16:28:44 hcf 149 Hierarchical, w/o Walker
+16:28:57 hcf 26 Hierarchical RFL + Walker (ours)
+16:28:58 hcf 26 Pooled Pascual-Meeker RFL + Walker
+16:29:10 hcf 26 Hierarchical, w/o Walker
+16:29:23 hcf 34 Hierarchical RFL + Walker (ours)
+16:29:24 hcf 34 Pooled Pascual-Meeker RFL + Walker
+16:29:36 hcf 34 Hierarchical, w/o Walker
+16:29:50 hcf PW Hierarchical RFL + Walker (ours)
+16:29:50 hcf PW Pooled Pascual-Meeker RFL + Walker
+16:30:03 hcf PW Hierarchical, w/o Walker
+16:30:03 done 618s

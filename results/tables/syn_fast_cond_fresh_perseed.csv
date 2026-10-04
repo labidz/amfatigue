@@ -1,0 +1,31 @@
+group,coverage,seed
+Walker-equivalent stress Q1 (lowest),0.9475955442795283,0
+Walker-equivalent stress Q2,0.9052011366785123,0
+Walker-equivalent stress Q3,0.8872555022120617,0
+Walker-equivalent stress Q4 (highest),0.8977354905277716,0
+alloy Ti64,0.9098596590663844,0
+alloy AlSi10Mg,0.8864228231743653,0
+alloy 316L,0.9421416471353288,0
+alloy IN718,0.9062524991487577,0
+surface as-built,0.9127291265296941,0
+surface machined,0.9073159706544502,0
+Walker-equivalent stress Q1 (lowest),0.945052113840829,1
+Walker-equivalent stress Q2,0.9054969361145399,1
+Walker-equivalent stress Q3,0.9106562211417107,1
+Walker-equivalent stress Q4 (highest),0.9271528531640214,1
+alloy Ti64,0.9376529853845407,1
+alloy AlSi10Mg,0.9263861904578722,1
+alloy 316L,0.89360992331873,1
+alloy IN718,0.9035697460712935,1
+surface as-built,0.9073345818505069,1
+surface machined,0.9324367285787643,1
+Walker-equivalent stress Q1 (lowest),0.9597086551872349,2
+Walker-equivalent stress Q2,0.9157726648454321,2
+Walker-equivalent stress Q3,0.9015584368726705,2
+Walker-equivalent stress Q4 (highest),0.900525018879462,2
+alloy Ti64,0.9126338161726496,2
+alloy AlSi10Mg,0.9310207985629552,2
+alloy 316L,0.9361634888463349,2
+alloy IN718,0.8846819161428118,2
+surface as-built,0.93332788755043,2
+surface machined,0.9054237426634973,2

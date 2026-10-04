@@ -1,0 +1,9 @@
+23:04:12 monotone {'life': 100000.0, 'studies': 200, 'stresses': 60, 'decreasing_steps': 0, 'most_negative_step': 0.0}
+23:04:54 monotone {'life': 2000000.0, 'studies': 200, 'stresses': 60, 'decreasing_steps': 0, 'most_negative_step': 0.0}
+23:05:36 monotone {'life': 10000000.0, 'studies': 200, 'stresses': 60, 'decreasing_steps': 0, 'most_negative_step': 0.0}
+23:10:15 fdr {'seed': 0, 'fdr': 0.058390679402982266, 'fdr_se': 0.00461882446075919, 'power': 0.47809257083166357, 'replicates': 200, 'n_cal': 150, 'n_screened': 150, 'pool_size': 1500, 'anomaly_share': 0.19333333333333333}
+23:14:42 fdr {'seed': 1, 'fdr': 0.04228907150316462, 'fdr_se': 0.004516022735445874, 'power': 0.38234341872136823, 'replicates': 200, 'n_cal': 150, 'n_screened': 150, 'pool_size': 1500, 'anomaly_share': 0.2}
+23:19:08 fdr {'seed': 2, 'fdr': 0.0850758669935839, 'fdr_se': 0.006632178073949215, 'power': 0.49453168230947564, 'replicates': 200, 'n_cal': 150, 'n_screened': 150, 'pool_size': 1500, 'anomaly_share': 0.188}
+23:20:09 init {'init_w': 0.3, 'init_sd_beta0': 0.3, 'init_sd_mu': 0.1, 'walker': 0.3557538327250993, 'sd_beta0': 0.3402833530788718, 'sd_mu': 0.12812554239852078, 'true_w': 0.6, 'true_sd_beta0': 0.35, 'true_sd_mu': 0.1}
+23:21:05 init {'init_w': 0.9, 'init_sd_beta0': 0.3, 'init_sd_mu': 0.1, 'walker': 0.883613794431087, 'sd_beta0': 0.36235977739445197, 'sd_mu': 0.1715380996059417, 'true_w': 0.6, 'true_sd_beta0': 0.35, 'true_sd_mu': 0.1}
+23:22:01 init {'init_w': 0.6, 'init_sd_beta0': 0.6, 'init_sd_mu': 0.3, 'walker': 0.5988054093905586, 'sd_beta0': 0.3544831787989087, 'sd_mu': 0.19634109492475832, 'true_w': 0.6, 'true_sd_beta0': 0.35, 'true_sd_mu': 0.1}

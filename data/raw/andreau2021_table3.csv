@@ -1,0 +1,44 @@
+# Source: Andreau, O., Pessard, E., Koutiri, I., Peyre, P., Saintier, N. (2021).
+#   "Influence of the position and size of various deterministic defects on the high cycle fatigue
+#    resistance of a 316L steel manufactured by laser powder bed fusion." Int. J. Fatigue.
+#   Open-access manuscript: https://sam.ensam.eu/bitstream/10985/19933/2/PIMM_IJF_2021_ANDREAU.pdf
+#   Table 3 ("Summary of all the fatigue tests carried out"), transcribed twice independently (3 Oct 2026);
+#   both transcriptions agree on every cell.
+# Test conditions (from the paper): L-PBF 316L, vertical build, machined and polished (Ra ~0.1 um),
+#   stress-relief 350 C / 2 h, step tests, 20 MPa increments, 1e6 cycles per step, R = 0.1,
+#   end_step_MPa is the MAXIMUM stress of the step at which failure occurred. UTS 583 +/- 37 MPa.
+# Footnotes: C210-2 used 1e5-cycle steps; R430-3 failed during the first cycle of its last step.
+# critical_defect: fractographic origin reported by the authors ("Deterministic" = artificial defect).
+sample,end_step_MPa,number_of_steps,cycles_last_step_x1e5,sqrt_area_um,critical_defect,note
+S-1,320,1,8.58,137,Surface defect,
+S-2,580,10,4.43,,Microstructure,
+S-3,460,4,8.59,23,Surface defect,
+S-4,560,9,5.89,,Microstructure,
+S-5,600,16,2.99,,Microstructure,
+S-6,580,10,3.50,,Microstructure,
+S-7,580,10,2.61,,Microstructure,
+L-1,500,2,7.08,27,Surface defect,
+L-2,480,8,2.31,35,Surface defect,
+L-3,440,6,1.33,46,Surface defect,
+L-4,540,11,4.11,16,Surface defect,
+L-5,500,9,8.62,,Non observable,
+L-6,520,10,3.66,42,Surface defect,
+C210-1,400,7,5.54,55,Surface defect,
+C210-2,540,8,7.57,25,Surface defect,1e5-cycle steps
+C210-3,520,8,5.46,31,Surface defect,
+C430-1,460,9,1.66,396,Deterministic,
+C430-2,480,10,3.85,388,Deterministic,
+C430-3,440,8,6.91,387,Deterministic,
+C850-1,380,1,3.98,832,Deterministic,
+C850-2,320,3,5.07,787,Deterministic,
+C850-3,340,4,2.10,819,Deterministic,
+C850-4,320,3,4.37,795,Deterministic,
+R430-1,440,6,5.54,425,Deterministic,
+R430-2,420,7,4.71,426,Deterministic,
+R430-3,440,8,0.0,399,Deterministic,failed during first cycle of last step
+D430-1,420,5,6.75,403,Deterministic,
+D430-2,440,6,5.67,432,Deterministic,
+D430-3,440,8,4.28,408,Deterministic,
+M430-1,420,5,9.05,441,Deterministic,
+M430-2,460,7,2.64,439,Deterministic,
+M430-3,420,7,8.33,433,Deterministic,
